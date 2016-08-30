@@ -1,0 +1,33 @@
+/*   Team   */
+
+#team{
+  padding-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  background-color:#fff;
+  color: black;
+  h2{
+    font-size: 45px;
+    font-weight: 100;
+    text-transform: uppercase;
+    span{
+      color:#1ac6ff;
+    }
+  }
+  .mainHeader{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .subHeader{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .col-md-3{
+    h5{
+      font-size: 15px;
+      font-weight: 700;
+      color: #1ac6ff;
+    }
+  }
+}

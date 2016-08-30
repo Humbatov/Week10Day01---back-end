@@ -1,0 +1,119 @@
+#prices{
+  background-color:#fff;
+  color: black;
+  font-family: 'Lato', sans-serif;
+
+  h2{
+    font-size: 45px;
+    font-weight: 100;
+    text-transform: uppercase;
+    span{
+      color:#1ac6ff;
+    }
+  }
+  .mainHeader{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .subHeader{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .col-md-4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    &:hover {
+      .col-md-4-item{
+        color: #fff;
+        background-color: #1ac6ff;
+        div{
+          &:nth-child(2){
+          color: #fff;
+          background-color: #23addb;
+          }
+        }
+        .capabilities{
+          ul{
+            li{
+              color:#fff;
+              &:nth-child(5){
+                border: 1px solid #fff;
+                color: #fff;
+              }
+              span{
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+
+    .col-md-4-item{
+      border: 1px solid #F3F3F3;
+      background-color: #F8F8F8;
+      color: #000;
+      h5{
+        font-size: 25px;
+        font-weight: 300;
+        padding: 20px 0 18px 0;
+        margin: 0;
+      }
+      div{
+        &:nth-child(2){
+        color: #1ac6ff;
+        background-color: #F3F3F3;
+        p{
+          font-size:15px;
+          text-transform: uppercase;
+          padding-bottom: 15px;
+          margin: 0;
+        }
+        }
+      }
+      .priceNumber{
+        font-size: 115px;
+        font-weight: 300 !important;
+        margin: 0;
+        line-height: 126px;
+        span{
+          font-size:47px;
+          font-weight: 500;
+          vertical-align: super;
+        }
+      }
+      .capabilities{
+        padding:30px 58px 50px 58px;
+        ul{
+          text-align: center;
+          li{
+            list-style-type: none;
+            padding: 15px 0;
+            border-bottom: 1px solid #E1E1E1;
+            color:#707070;
+            font-size: 16px;
+            &:nth-child(4){
+              border: none;
+            }
+            &:nth-child(5){
+              border: 1px solid #1ac6ff;
+              text-transform: uppercase;
+              color: #1ac6ff;
+              margin-top: 30px;
+            }
+            span{
+              font-weight: 700;
+              color: #4c4c4c;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
